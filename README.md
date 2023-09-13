@@ -7,7 +7,7 @@ Bulk set labels in the changelog file
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/set-labels@v4.23.1
+- uses: liquibase-github-actions/set-labels@v4.23.2
   with:
     # The root changelog file
     # string
@@ -101,7 +101,7 @@ The liquibase set labels action accepts all valid liquibase global options as op
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/set-labels@v4.23.1
+  - uses: liquibase-github-actions/set-labels@v4.23.2
     with:
       changelogFile: ""
       setAs: ""
