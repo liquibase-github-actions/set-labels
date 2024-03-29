@@ -1,8 +1,7 @@
 # Liquibase Set Labels Action
 Official GitHub Action to run Liquibase Set Labels in your GitHub Action Workflow. For more information on how set labels works visit the [Official Liquibase Documentation](https://docs.liquibase.com/commands/home.html).
 ## Set Labels
-[PRO]
-Bulk set labels in the changelog file
+[PRO] Bulk set labels in the changelog file
 ## Usage
 ```yaml
 steps:

@@ -12,8 +12,7 @@ service SetLabelsService {
   rpc execute(SetLabelsRequest) returns (Response) {}
 }
 
-/* [PRO]
-Bulk set labels in the changelog file */
+/* [PRO] Bulk set labels in the changelog file */
 message SetLabelsRequest {
   string changelog_file = 1; // *required* The root changelog file
   optional string changeset_author = 2; // The author of the changeset to modify
